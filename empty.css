@@ -1,0 +1,646 @@
+/* ####################################################################### */
+/* Modelo de Página do Usuário Spirit                                      */
+/* Através desse arquivo você pode personalizar seu perfil                 */
+/* Você pode mudar as cores, fontes e imagens                              */
+                                                                         
+/* ####################################################################### */
+/* Estilos de todo o Site      
+
+
+/***************************************************** rolagem **/ 
+body::-webkit-scrollbar-thumb:vertical {
+background: #fff; /*Cor da barrinha que se move*/
+border: 4px solid #d3e1e9; /*Coloque borda se quiser*/}
+body::-webkit-scrollbar-thumb:horizontal {
+background-color:#fff; /*Cor da barrinha que se move*/
+border: 4px solid #b9d0dd; /*Coloque borda se quiser*/}
+
+body::-webkit-scrollbar {
+width:9px; /*Largura da barra de rolagem*/
+ background: #d3e1e9; /*Cor da parte fixa, que fica no mundo*/
+border: 1px solid #bgh; /*Coloque borda se quiser*/
+}
+
+
+body {
+	background-color: #fbfbfb;
+}
+
+
+#fundo { 
+background: url(https://1.bp.blogspot.com/-eUmigFgFods/V4qZsN-du6I/AAAAAAAAKPw/ZSJTf49tL_ErmVAHYgYhCCYLl4cX4yGFgCLcB/s1600/Sem%2BT%25C3%25ADtulo-1.png) repeat-X left top; 
+}
+
+fieldset {
+	border: 1px solid #fff;
+outline: 1px solid #d3e1e9!important;
+        color: #b9d0dd;
+text-shadow: 1px 0px 0px #fff;
+}
+
+#meio span, #meio span a, .admin, .admin:hover, .ativo, .ativo:hover, .link {
+
+color: #b9d0dd;
+text-shadow: 1px 0px 0px #fff;
+
+
+}
+
+
+#base {
+background: url(https://3.bp.blogspot.com/-naNQPcOnLQQ/V4qZsSPm5VI/AAAAAAAAKP0/pSOyJWbxg-8-h8i8EEWCk6yZUQ4VyQrUwCLcB/s1600/Sem%2BT%25C3%25ADtulo-3.png) repeat-Y center center; 
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+
+
+
+/* ####################################################################### */
+/* Estilos da parte de Cima do Site                                        */
+
+#cima #logo {
+        height:220px;
+	background: url(https://4.bp.blogspot.com/-c9mGPdLfgmY/V4rXRnB2_UI/AAAAAAAAKRk/ujM2euEplUwcq2JESOr05NQBbsyVeo7LwCLcB/s1600/Sem%2BT%25C3%25ADtulo-1ew.png);
+}
+
+#nav { 
+background: #;
+border-top:0px solid
+#000;
+margin-left: 0px;
+border-radius: 0px; 
+padding: 20px;
+padding-bottom:-20px
+transition: 0.08s;
+}
+
+#nav>ul {
+left:-2px;
+top:-220px;
+}
+
+
+#nav a {
+font-family: PF Arma Five!important;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 1.6px;
+font-size: 8px!important;
+text-shadow: 0px 0px 0px #bac5d2;
+transition: 0.08s;
+}
+
+#nav a:hover {
+background-color: #d3e1e9;
+border-bottom: 16px solid #d3e1e9;
+border-right: 0px solid #b1e5dd;
+border-top: 20px solid #d3e1e9;
+color: #bac5d2; 
+text-shadow: 1px 0px 0px #fff;
+font-family: PF Arma Five!important;
+font-style:normal;
+text-transform: uppercase;
+letter-spacing: 1.6px;
+font-size: 8px!important;
+ transition: 0.6s;
+
+} 
+
+
+#secaoNav  {
+	
+   
+border:none !important;
+        border-radius: 0px;
+font-family: "Helvetica", Times, serif!important;
+text-color: #d3e1e9;
+text-transform: lowercase; 
+font-weight: normal; 
+font-size: 8px; 
+font-style: normal; 
+letter-spacing: 1.7px; 
+text-align: left;  
+
+}
+
+#secaoNav, #secaoNav a {
+font-size: 8px!important;
+background-color: #;
+color: #d3e1e9;
+text-shadow: 1px 0px 0px #;
+text-transform:lowercase;
+text-align:left; 
+margin-left: -0px;
+margin-right: -0px;
+font-style: normal;
+
+
+
+Letter-spacing: 1.3px!important; 
+font-variant: small-caps!important; 
+font-family: Helvetica!important;
+text-decoration: none; */sublinhado do link
+
+}
+
+
+/* ####################################################################### */
+/* Estilos da parte de Baixo do Site                                      */
+
+#baixo {
+	border-bottom: 1px solid #efeeee;
+border-right: 1px solid #efeeee;
+border-left: 1px solid #efeeee;
+
+
+	background-color: #fff;
+	color: #e2dbd7;
+        text-shadow: 1px 1px 0px #fff;
+}
+
+#baixo a {
+	color: #e2dbd7;
+        text-shadow: 1px 1px 0px #fff;
+}
+
+/* ####################################################################### */
+/* Estilos do Menu Direito do Site                                         */
+
+.boxMenuDireito {
+color: #fff;
+text-shadow: 0px 0px 0px #2b2b2b;
+margin-top: 8px!important;
+
+}
+
+.boxMenuDireito .tituloMenuDireito {    
+background: url(https://3.bp.blogspot.com/-rUlPdlHF5-A/V4qwXe0z7iI/AAAAAAAAKRA/HHN7-HTUiJwjFWAvJngAj0_X5rS3nq7IwCLcB/s1600/Sem%2BT%25C3%25ADtulo-7.png);  
+padding:11.5px!important;
+border: 0px solid #fff!important;
+outline: 0px solid #b9d0dd!important;
+font-style:normal;
+
+
+
+        color: #bac5d2;
+        font-size:11px;
+text-shadow: 1px 0px 0px #fff;
+text-align: center; 
+
+
+Letter-spacing: 2px!important; 
+font-variant: small-caps!important; 
+font-family: "Calibri", Times, serif!important;
+text-transform: lowercase; 
+transition: 0.5s;
+margin: 7px;
+
+}
+
+.boxMenuDireito .tituloMenuDireito:hover { 
+background-color: #e6eef2;
+border-left: 80px solid #e6eef2;
+border-right: 80px solid #e6eef2;
+border-radius: 0px 0px 0px 0px!important;
+-moz-border-radius: 0px 0px 0px 0px!important;
+font-style:italic;
+ transition: 1.3s;
+text-align: center; 
+}
+
+
+.boxMenuDireito .textoMenuDireito{
+        background-color:#d3e1e9;
+        color:#fff;
+text-shadow: 1px 1px 0px #;
+border: 1px solid #fff!important;
+outline: 1px solid #b9d0dd!important;
+
+
+font-weight: normal; 
+font-size: 7.5px; 
+text-align: left;
+Letter-spacing: 1.2px!important; 
+font-variant: small-caps!important; 
+font-family: Calibri!important; 
+text-transform: uppercase; 
+
+
+border-radius: 0px 0px 0px 0px!important;
+-moz-border-radius: 0px 0px 0px 0px!important;
+ transition: 0.5s;
+}
+
+.boxMenuDireito .textoMenuDireito a {
+ color: #aac2d0;
+text-shadow: 1px 0px 0px #fff;
+font-family: Helvetica!important;
+font-style:normal;
+text-transform: lowercase;
+font-size: 8px;
+}
+
+.boxMenuDireito img { 
+-webkit-filter: grayscale(50%);
+filter: grayscale(50%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+-webkit-transition:All 0.3s linear; 
+-moz-transition:All 0.3s linear; 
+-o-transition:All 0.3s linear; 
+transition: all 0.3s linear; 
+} 
+
+.boxMenuDireito img:hover {
+-webkit-filter: grayscale(0.2)
+filter: grayscale(50%);
+hue-rotate(300deg) saturate(5.7); 
+-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+-webkit-transition:All 0.3s linear; 
+-moz-transition:All 0.9s linear; 
+-o-transition:All 0.9s linear; 
+transition: all 0.9s linear; 
+border-top: 1.5px solid #fff!important;
+border-left: 1.5px solid #fff!important;
+border-right: 1.5px solid #b9d0dd!important;
+border-bottom: 1.5px solid #b9d0dd!important;
+
+
+
+}
+
+.boxMenuDireito img { 
+height: 35px!important;
+width: auto!important;
+border-top: 1.5px solid #fff!important;
+border-left: 1.5px solid #fff!important;
+border-right: 1.5px solid #b9d0dd!important;
+border-bottom: 1.5px solid #b9d0dd!important;
+box-shadow:# 1px 1px 3px; 
+border-radius: 0px 0px 0px 0px!important; 
+-moz-border-radius: 0px 0px 0px 0px!important; 
+padding-left: 0px!important;
+
+}
+
+.boxMenuDireito img {
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: transform 1.8s;
+-moz-transition: transform 1.8s;
+-o-transition: transform 1.8s;
+transition: transform 1.8s;
+border-radius: 0% !important;
+height: 30px!important;
+transition: 0.4s;
+width: auto!important;
+
+
+}
+
+.boxMenuDireito img:hover {
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: transform 5s;
+-moz-transition: transform 5s;
+-o-transition: transform 5s;
+transition: transform 5s;
+border-radius: 0% !important;
+height: 30px!important;
+width: auto!important;
+transition: 0.4s;
+
+}
+
+
+/* ####################################################################### */
+/* Estilo das imagens do menu direito, tal como os avatares               */
+
+.boxMenuDireito img{
+           border-radius: 0px;
+
+}
+
+.boxMenuDireito img:hover{
+           border-radius: 0px;
+
+}
+
+/* ####################################################################### */
+/* Estilos que pertencem ao Conteúdo do Site                               */
+
+#quote {
+	color: #d3e1e9;
+text-shadow: 1px 0px 0px #e6eef2;
+	background: url(https://2.bp.blogspot.com/-BNQY-QMEsY8/V4qnRKY7XzI/AAAAAAAAKQY/Cg6vu-56lyUT-jyl2a5I3TrBfLhqv_90gCLcB/s1600/quote.png);
+border: 1px solid #e6eef2!important;
+outline: 0px solid #999999!important;
+        font-size:8px;
+        text-transform:lowercase;
+        text-align:center; 
+font-style: normal;
+text-shadow: 1px 1px 0px #;
+transition: 0.4s;
+
+Letter-spacing: 1.5px!important; 
+font-va23:45 16/01/2015riant: small-caps!important; 
+font-family: Helvetica!important;
+
+border-radius: 0px 0px 0px 0px!important; 
+-moz-border-radius: 0px 0px 0px 0px!important; 
+}
+
+#quote:hover {
+font-style:italic;
+color: #d3e1e9;
+text-shadow: 1px 0px 0px #e6eef2;
+background-color: #;
+border: 1px solid #e6eef2!important;
+outline: 0px solid #999999!important;
+transition:0.5s;
+border-radius: 0px 0px 0px 0px!important; 
+-moz-border-radius: 0px 0px 0px 0px!important;  
+}
+
+.boxConteudo .titulo, .boxConteudo h1, .boxConteudo h2, .boxConteudo h1 a, .boxConteudo h2 a {
+background: #;
+color: #fff;
+font-family: Calibri!important; 
+text-transform:uppercase;
+text-align:left;
+font-size: 11px!important;
+font-style: oblique;
+text-shadow: 0px 0px 0px #cccccc;
+Letter-spacing: 2.7px!important; 
+text-decoration: none; */sublinhado do link 
+margin:5px;
+margin-left:0px;
+
+
+}
+
+
+.boxConteudo .titulo,.boxConteudo h1,.boxConteudo h2{
+background: #;
+box-shadow: 2px 1px 0px #;
+padding: 9px!important;
+border-top: 0px solid #5a5a5a!important;
+border-left: 0px solid #5a5a5a!important;
+border-right: 0px solid #5a5a5a!important;
+transition: 3s;
+}
+
+.boxConteudo .titulo,.boxConteudo h1,.boxConteudo h2:hover{
+background-color: #;
+border-bottom: 0px solid #fff;
+border-left: 0px solid #fff;
+border-top: 0px solid #d3e1e9;
+transition: 3s;
+}
+
+h2.tituloPrincipal strong, .boxConteudo .titulo, .boxConteudo h1, .boxConteudo h2, .boxConteudo h1 a, .boxConteudo h2 a.tituloPrincipal strong:hover {
+color: #bac5d2;
+font-size: 8px!important;
+text-align:left;
+Letter-spacing: 2.7px!important; 
+text-transform:uppercase;
+font-style: normal;
+}
+
+
+.boxConteudo .textoBg1, .boxConteudo tr.textoBg1 td {
+	background: #e6eef2;
+	color: #fff;
+text-shadow: 1px 1px 0px #;
+border: 1px solid #fff;
+outline: 1px solid #d3e1e9!important;
+border-radius: 0px 0px 0px 0px!important;
+-moz-border-radius: 0px 0px 0px 0px!important;
+margin: 0px!important;
+box-shadow: 2px 1px 0px #;
+}
+
+.boxConteudo .textoBg2, .boxConteudo tr.textoBg2 td { 
+	background-color: #d3e1e9;
+	color: #f7f7f7;
+border: 1px solid #fff;
+outline: 1px solid #d3e1e9!important;
+text-shadow: 1px 1px 0px #;
+box-shadow: 2px 1px 0px #;
+border-radius: 0px 0px 0px 0px!important;
+-moz-border-radius: 0px 0px 0px 0px!important;
+margin-top: 5px!important;
+margin-bottom:5px!important;
+
+}
+
+.boxConteudo .baixo {
+text-align: center!important;
+background: #; 
+color: #bac5d2;
+font-size: 5px; 
+border:1px solid #;
+text-decoration: none
+text-align: center!important;
+font-style: normal;
+text-transform; uppercase;
+margin: 5px!important;
+padding:4px;
+}
+
+#boxUsuario .baixo ul li a {
+font-size: 11px!important;
+text-align: center!important;
+letter-spacing: 1px;
+font-style: normal;
+text-transform: lowercase;
+letter-spacing: 1px;
+color: #bac5d2;
+text-shadow: 1px 0px 0px #fff;
+}
+
+.boxConteudo .baixo a {
+text-align: center!important;
+font-size: 10px; 
+color: #bac5d2;
+text-shadow: 1px 0px 0px #fff;
+text-transform: lowercase!important; 
+text-transform: uppercase; 
+
+
+Letter-spacing: 0.1px!important; 
+font-variant: small-caps!important; 
+font-family: "Calibri", Times, serif!important;
+font-size: 10px; 
+}
+
+.boxConteudo .baixo a:hover {
+font-size: 10px; 
+color: #bac5d2; /*Cor do link quando passa o mouse*/
+text-shadow: 1px 0px 0px #fff;
+text-decoration: none!important;
+text-decoration-color: #f0f0f0;
+filter:alpha(opacity=100);
+-moz-opacity: 1; -khtml-opacity: 1; opacity: 1;
+} 
+
+
+/* ####################################################################### */
+/* Elementos Condensados                                                   */
+
+a, body {
+	color: #fff;
+
+}
+
+a:hover {
+    color: #fff;
+}
+
+
+.feed-links {display: none; clear: both; line-height: 2.5em; }
+a:link {
+color:  #fff; /* Cor do link*/
+text-decoration: none;
+
+}
+a:visited {
+color: #fff; /*Cor dos links visitados*/
+text-decoration:none;
+filter:alpha(opacity=100);
+-moz-opacity: 1; -khtml-opacity: 1; opacity: 1;
+}
+a:hover {
+color: #f7f7f7; /*Cor do link quando passa o mouse*/
+text-decoration:none;
+font style: italic!important;
+filter:alpha(opacity=100);
+-moz-opacity: 1; -khtml-opacity: 1; opacity: 1;
+}
+
+
+#meio ::selection{ 
+color:#fff; 
+background:#e8eef2; 
+} 
+
+/* ####################################################################### */
+/* Estilo das Caixas de Texto onde se escreve comentários, recados
+no Livro de Visitas e a Busca no menu de Amigos                            */
+
+#meio input {
+    background-color: #d3e1e9; /* Cor do fundo */
+    color: #fff; /* Cor do Texto */
+    border-bottom: 1px solid #c1d5e0!important; 
+box-shadow: 0px 0px 0px #d3e1e9;
+    border-radius: 0px; /* A propriedade CSS3 border-radius destina-se a definir bordas arredondadas. */
+    font-size: 10px !important; /* Tamanho da fonte */
+font-style: italic;
+}
+
+#meio textarea {
+    background-color: #d3e1e9 !important;
+    font-family: Helvetica;
+    color: #fff !important;
+    font-size: 10px !important;
+    border: none !important;
+    border-radius: 0px;
+}
+
+
+/* ####################################################################### */
+/* Botão Adicionar          
+                                               */
+#nav .btn { 
+font-color: #e6eef2!important;
+color: #d3e1e9!important; 
+background-color:#e6eef2!important; 
+background-image:-webkit-linear-gradient(top,#e6eef2,#e6eef2)!important; 
+background-image: -moz-linear-gradient(top, #e6eef2, #e6eef2)!important; 
+background-image:-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#e6eef2, endColorstr=#e6eef2)"!important; 
+background-image:filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#e6eef2, endColorstr=#e6eef2)!important; 
+border-radius: 0px 0px 0px 0px!important;
+-moz-border-radius: 0px 0px 0px 0px!important;
+text-shadow: 0px 0px 0px #e6eef2;important;  
+border: 0px solid #e6eef2!important; 
+padding: 0px!important;
+margin-right: 0px;
+margin-top: 0px;
+} 
+
+
+
+/* ####################################################################### */
+/* Botões do Meio (Adicionar aos favoritos, Observar Usuário, etc)        */
+
+#meio .btn {
+  color: #fff;!important; 
+font-size: 6px; 
+Letter-spacing: 1px!important; 
+font-va23:45 16/01/2015riant: small-caps!important; 
+font-family: Helvetica!important;
+text-transform:uppercase;
+background-color:#d3e1e9!important; 
+background-image:-webkit-linear-gradient(top,#d3e1e9,#d3e1e9)!important; 
+background-image: -moz-linear-gradient(top, #d3e1e9, #d3e1e9)!important; 
+background-image:-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#d3e1e9, endColorstr=#d3e1e9)"!important; 
+background-image:filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#d3e1e9, endColorstr=#d3e1e9)!important; 
+border-radius: 0px 0px 0px 0px!important;
+-moz-border-radius: 0px 0px 0px 0px!important;
+text-shadow: 0px 0px 0px #fff;important;
+border: 1px solid #fff!important;
+outline: 1px solid #b9d0dd!important;
+padding: 6px!important;
+margin-right: 5px!important;
+} 
+
+#meio .btn:hover {
+    color: #fff!important;
+text-shadow: 0px 0px 0px ;important;
+    background-color: #d3e1e9 !important;
+margin-right: 5px!important;
+}
+
+#meio .btn span {
+    color: #fff;
+margin-right: 5px!important;
+}
+
+/* ####################################################################### */
+/* Dropdown dos Menus do Meio                                                                                              */
+
+font-size: 8px; 
+color: #fff;
+background: #d3e1e9; 
+border: 1px solid #bad1dd!important; 
+font-weight:normal;
+text-transform:uppercase;
+text-shadow: 1px 1px 0px #;important;
+letter-spacing: 0.0cm; 
+border-radius: 0px 0px 0px 0px!important;
+-moz-border-radius: 0px 0px 0px 0px!important;
+
+}
+
+#meio .dropdown-menu > li > a:hover{
+text-shadow: 1px 1px 0px #;important;
+background: #d3e1e9;
+color: #fff;
+border: 1px solid #!important;  
+letter-spacing: 0.6cm; 
+font-weight:normal;
+text-transform:uppercase;
+border-radius: 0px 0px 0px 0px!important;
+-moz-border-radius: 0px 0px 0px 0px!important;
+ 
+}
